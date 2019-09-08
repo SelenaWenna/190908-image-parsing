@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/swHome.vue';
+import Home from './views/sw-home.vue';
 
 Vue.use(Router);
 
@@ -15,7 +15,7 @@ export default new Router({
     {
       path: '/images',
       name: 'images',
-      component: () => import('./views/swImages.vue'),
+      component: () => import('./views/sw-images.vue'),
     },
   ],
 });
