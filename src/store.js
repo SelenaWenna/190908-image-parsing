@@ -5,8 +5,10 @@ import axios from 'axios';
 Vue.use(Vuex);
 
 const baseUrl = 'https://www.googleapis.com/customsearch/v1';
-const key = 'AIzaSyDnzmtj12p6roMg_sQJrgL4iTRrrlm3CnQ';
-const cx = '015079701613406697772:oh4spijl5hq';
+
+// Для работы страницы необходимо получить реквизиты доступа в сервисе https://developers.google.com/custom-search/docs/tutorial/introduction и вставить в константы key, cx.
+const key = '';
+const cx = '';
 
 export default new Vuex.Store({
   state: {

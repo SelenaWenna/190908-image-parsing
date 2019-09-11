@@ -1,4 +1,5 @@
-# 190908-image-parsing
+# image-parsing
+Для работы сервиса необходимо получить реквизиты доступа (key, cx) в сервисе https://developers.google.com/custom-search/docs/tutorial/introduction и вставить их в store.js
 
 ## Project setup
 ```
